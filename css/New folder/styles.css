@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column; /* Stacks flex items vertically */
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('../images/catinthearpy_4.jpg'); /* Replace with the actual path to your image */
+  background-repeat: repeat; /* This will tile the image */
+  background-size: 100px auto;
+}
+
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+p {
+  font-size: 1.5em;
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+}
+
+.arrow-button {
+  font-size: 2em;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+}
+
+#centralImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.links {
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: white;
+}
