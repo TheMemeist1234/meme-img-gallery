@@ -9,18 +9,30 @@
 
 <body>
     <h1>The Heavenly Gallery Of MEMES</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zjO6ZdWO6nc?si=BgH1Vi9kpn2LELFZ" title="My second favorite roblox game" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zjO6ZdWO6nc?si=BgH1Vi9kpn2LELFZ" title="I like Fortnite" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div class="gallery">
-        <button class="arrow-button left" onclick="prevImage()">&#9664;</button>
+        <script>
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'ArrowLeft') {
+                    prevImage();
+                }
+            });
+        </script>
         <img id="centralImage" src="" alt="Description of the image">
-        <button class="arrow-button right" onclick="nextImage()">&#9654;</button>
+          <script>
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'ArrowRight') {
+                    nextImage();
+                }
+            });
+        </script>
     </div>
 
     <script src="java-script/script.js"></script>
     
     
-<div class="links"><a href="https://www.youtube.com/shorts/Jwwo9h1V0NM" target="_">whatch some memes</a></div>
-<div class="links"><a href="https://www.youtube.com/watch?v=rKLk0JUS4TE" target="_">whatch some memes again</a></div>
+<div class="links"><a href="https://www.youtube.com/shorts/Jwwo9h1V0NM" target="_">watch some memes</a></div>
+<div class="links"><a href="https://www.youtube.com/watch?v=rKLk0JUS4TE" target="_">watch some memes again</a></div>
 </body>
 
 </html>
