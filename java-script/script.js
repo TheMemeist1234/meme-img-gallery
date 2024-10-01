@@ -25,7 +25,8 @@ const images = [
 "images/doge.jpg",
 "images/fat-doge.jpg",
 "images/another-one.jpg",
-"images/discord.jpg",
+"images/discord.jpg", 
+"images/blip.jpg", 
 ];
 
 // Initialize the slideshow with the first image
